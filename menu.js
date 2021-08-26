@@ -1,6 +1,7 @@
 function microondas(comida, tempo) {
   // São dois parametros, precisa receber comida e tempo
   let mensagem = ' '
+
   switch (comida) {
     case 'Pipoca':
       if (tempo >= 10 && tempo < 20) {
